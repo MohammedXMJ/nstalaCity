@@ -1,0 +1,1044 @@
+:root{
+    --text-color : #d3d3d3 ;
+    --box-color: #a4161a ; 
+    --main-text-color : #ddbb68 ;
+    --main-text-family : 'Cairo', sans-serif;
+    --nomal-text-color : #660708;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: auto;
+    
+}
+/****************************** Home Page **************************/
+/************************* UP *************************/
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 25px;
+    background-color: #ffd287;
+}
+.welcome p {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--nomal-text-color);
+}
+.hooka{
+    width: 1334px;
+    height: auto;
+    justify-content:center ;
+    display: flex;
+}
+section.hooka img.background{
+    position: relative;
+    width: auto;
+    height: 351px;
+    background-size: cover;
+}
+section.hooka div{
+    margin-top: 20px;
+    width: 450px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    filter: blur();
+}
+section.hooka div img.logo{
+    height: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section.hooka div p{
+    color: var(--text-color);
+    font-family: var(--main-text-family);
+    font-size: 28px;
+}
+/*********************** infotype ***********************/
+section.infotype{
+    display: flex;
+}
+section.infotype div.type {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+section.infotype div.type p{
+    font-family: var(--main-text-family);
+    color: var(--nomal-text-color);
+    font-size: 20px;
+}
+/********************** all Menu ***********************/
+p.all{
+    display: flex;
+    justify-content: flex-end;
+    font-family: var(--main-text-family);
+    font-size: 20px;
+    margin-right: 150px;
+}
+section.allmenu{
+    display: grid;
+    grid-template-columns: 285px 285px 285px 285px;
+    grid-template-rows: 200px 200px 200px 200px;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    gap: 10px;
+}
+section.allmenu div.first{
+    background-color: red;
+}
+div.f1{
+    background: url('../everything/other/background/hookabackground3.jpg') no-repeat;
+    background-size: cover;
+    background-position: right;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+}
+div.f1 p{
+    margin-bottom: 300px;
+    font-size: 60px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f1:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+div.f2{
+    background: url('../everything/allfood/background/burgerbackground.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+}
+div.f2 p{
+    margin-bottom: 320px;
+    font-size: 40px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f2:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+div.f3{
+    background: url('../everything/allfood/background/crepbackground.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    grid-column: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+}
+div.f3 p{
+    font-size: 40px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f3:hover{
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+div.f4{
+    background: url('../everything/other/background/coffeebackground.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    grid-column: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+    visibility: visible;
+}
+div.f4 p{
+    font-size: 40px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f4:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+div.f5{
+    background: url('../everything/other/drinks/oringe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+    visibility: visible;
+}
+div.f5 p{
+    font-size: 40px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f5:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+div.f6{
+    background: url('../everything/allfood/background/bankekbackground.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    grid-column: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+    visibility: visible;
+}
+div.f6 p{
+    font-size: 40px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f6:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+div.f7{
+    background: url('../everything/allfood/background/knafabackground.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+    visibility: visible;
+}
+div.f7 p{
+    font-size: 40px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+
+    border-style: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.f7:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/****************** Des mohammed mostafa ****************/
+div.des{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.des a.mylink{
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+div.des p.address{
+    margin-bottom: 10px;
+}
+div.des p.address{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+/******************************************************************/
+/******************************************************************/
+/******************************************************************/
+/*************************** HOOKA ********************************/
+/******************************************************************/
+/******************************************************************/
+section.Hookapage{
+    background: url("../everything/other/background/hookabackground334.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/****************************** Home Page **************************/
+/************************* UP *************************/
+div.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.title p{
+    color:var(--main-text-color);
+    font-size: 60px;
+    font-family: var(--main-text-family);
+    background-color: rgba(0,0, 0,0.5);
+    padding: 0px 40px 0px 40px;
+    border-radius: 100px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+section.allprod{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+section.allprod div.prod1{
+    margin-right: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(0,0, 0,0.5);
+    border-radius: 30px;
+    padding: 1px 50px 20px 200px ;
+    gap: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+section.allprod div.prod1 p{
+    font-size: 30px;
+    font-family: var(--main-text-family);
+    color: var(--main-text-color)
+}
+div.deshooka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+div.deshooka a{
+    cursor:pointer;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+div.deshooka p{
+    margin-bottom: 10px;
+}
+section.Hookapage div.title a.backhome img{
+    margin-right: 2px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/******************************************************************/
+/************************* Burger Page*********************************/
+/******************************************************************/
+section.Burgerpage {
+    background: url("../everything/allfood/background/foodB2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+
+}
+div.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+div.box a img {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+div.box p{
+    color:var(--main-text-color);
+    font-size: 60px;
+    font-family: var(--main-text-family);
+    background-color: rgba(0,0, 0,0.5);
+    padding: 0px 40px 0px 40px;
+    border-radius: 100px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/********************** Food section *********************/
+section.foodmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 100px;
+    margin-top: 40px;
+    gap: 20px;
+}
+/***************************** 1 Food **************************/
+.food1{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0, 0,0.5);
+    width: 600px;
+    height: 200px;
+    border-radius: 50px;
+    justify-content: flex-end;
+}
+.food1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* .food1:active{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+.foodimg1{
+    background: url('../everything/allfood/food/burger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.foodinfo{
+    font-family: var(--main-text-family);
+    color: var(--main-text-color);
+    font-size: 24px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+/***************************** 2 Food **************************/
+.foodimg2{
+    background: url('../everything/allfood/food/burgermhshe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 3 Food **************************/
+.foodimg3{
+    background: url('../everything/allfood/food/burgermhshe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 4 Food **************************/
+.foodimg4{
+    background: url('../everything/allfood/food/chessburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 5 Food **************************/
+.foodimg5{
+    background: url('../everything/allfood/food/burgermhshe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 6 Food **************************/
+.foodimg6{
+    background: url('../everything/allfood/food/chessburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 7 Food **************************/
+.foodimg7{
+    background: url('../everything/allfood/food/chessburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 8 Food **************************/
+.foodimg8{
+    background: url('../everything/allfood/food/chickenburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 9 Food **************************/
+.foodimg9{
+    background: url('../everything/allfood/food/chessburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 10 Food **************************/
+.foodimg10{
+    background: url('../everything/allfood/food/chessburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 11 Food **************************/
+.foodimg11{
+    background: url('../everything/allfood/food/lgm.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 12 Food **************************/
+.foodimg12{
+    background: url('../everything/allfood/food/lgm.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 13 Food **************************/
+.foodimg13{
+    background: url('../everything/allfood/food/skalob.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 14 Food **************************/
+.foodimg14{
+    background: url('../everything/allfood/food/zinker.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 15 Food **************************/
+.foodimg15{
+    background: url('../everything/allfood/food/toestr2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 16 Food **************************/
+.foodimg16{
+    background: url('../everything/allfood/food/chessskalob.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 17 Food **************************/
+.foodimg17{
+    background: url('../everything/allfood/food/chessskalob.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 18 Food **************************/
+.foodimg18{
+    background: url('../everything/allfood/food/faheta.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 19 Food **************************/
+.foodimg19{
+    background: url('../everything/allfood/food/fladevea.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 20 Food **************************/
+.foodimg20{
+    background: url('../everything/allfood/food/tawwek.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 21 Food **************************/
+.foodimg21{
+    background: url('../everything/allfood/food/fler.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/***************************** 22 Food **************************/
+.foodimg22{
+    background: url('../everything/allfood/food/chessburger.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/******************************************************************/
+/************************* Kunafa Page **************************/
+/******************************************************************/
+section.kunafatateli{
+    background: url("../everything/allfood/background/kunafaP.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.food2{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0, 0,0.7);
+    width: 600px;
+    height: 200px;
+    border-radius: 50px;
+    justify-content: flex-end;
+}
+.food2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.kunafaimg1{
+    background: url('../everything/allfood/knafa/knafa.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.kunafaimg2{
+    background: url('../everything/allfood/knafa/nutela.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.kunafaimg3{
+    background: url('../everything/allfood/knafa/lotos.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.kunafaimg4{
+    background: url('../everything/allfood/knafa/oreo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.kunafaimg5{
+    background: url('../everything/allfood/knafa/spichal.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/******************************************************************/
+/********************** Crepc & Pankek Page ***********************/
+/******************************************************************/
+section.creptateli{
+    background: url("../everything/allfood/background/crepbankekP22.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    width: auto;
+    height: auto;
+}
+.crepimg1{
+    background: url('../everything/allfood/crep/clask.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.crepimg2{
+    background: url('../everything/allfood/crep/oreo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.crepimg3{
+    background: url('../everything/allfood/crep/lotos.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.crepimg4{
+    background: url('../everything/allfood/bankek/bankek.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.crepimg5{
+    background: url('../everything/allfood/bankek/oreo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.crepimg6{
+    background: url('../everything/allfood/bankek/lotos.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.crepimg7{
+    background: url('../everything/allfood/bankek/spical.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/******************************************************************/
+/************************ Cold Drinks Page ************************/
+/******************************************************************/
+section.coldDrinks{
+    background: url("../everything/other/background/juicesbg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+}
+.cold1{
+    background: url('../everything/other/drinks/lemon.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold2{
+    background: url('../everything/other/drinks/lemonnane.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold3{
+    background: url('../everything/other/drinks/oringe.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold4{
+    background: url('../everything/other/drinks/shmam.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold5{
+    background: url('../everything/other/drinks/moz.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold6{
+    background: url('../everything/other/drinks/mozMilk.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold7{
+    background: url('../everything/other/drinks/mozfrola.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold8{
+    background: url('../everything/other/drinks/kewe2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold9{
+    background: url('../everything/other/drinks/mix.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold10{
+    background: url('../everything/other/drinks/Milkshake.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold11{
+    background: url('../everything/other/drinks/Lemonmexican.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold12{
+    background: url('../everything/other/drinks/mksiketager.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold13{
+    background: url('../everything/other/drinks/peach.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cold14{
+    background: url('../everything/other/drinks/Peachlemon.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+/******************************************************************/
+/************************* Hot Drinks Page ************************/
+/******************************************************************/
+section.hotDrinks{
+    background: url("../everything/other/background/blackcoffeeB222.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+}
+.Hot1{
+    background: url('../everything/other/hot/tea.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot2{
+    background: url('../everything/other/hot/hamd.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot3{
+    background: url('../everything/other/hot/Nescafe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot4{
+    background: url('../everything/other/hot/cappuccino.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot5{
+    background: url('../everything/other/hot/cacao.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot6{
+    background: url('../everything/other/hot/blackcoffee.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot7{
+    background: url('../everything/other/hot/blackcoffee.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot8{
+    background: url('../everything/other/hot/blackcoffee.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.Hot9{
+    background: url('../everything/other/hot/jklete.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
