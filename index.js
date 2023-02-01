@@ -77,10 +77,10 @@ $(".f6").click(function (){
 $(".f7").click(function (){
     $(".hooka").fadeOut();
     $(".allchange").fadeOut();
-    $("div.des").fadeOut();
     $(".kunafatateli").show();
     $("d.deshooka").css("color","black");
     $("div.deshooka a").css("color","black");
+    $("div.des").fadeOut();
 })
 
 $(".location").click(function(){
