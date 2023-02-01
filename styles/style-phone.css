@@ -217,7 +217,7 @@ div.f4:active{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 div.f5{
-    background: url("../everything/other/drinks/oringe.JPG") no-repeat;
+    background: url("../everything/other/drinks/oringe.jpg") no-repeat;
     background-size: content;
     background-position: right;
     display: flex;
