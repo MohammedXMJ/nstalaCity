@@ -29,8 +29,10 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     color: var(--nomal-text-color);
 }
-.hooka{
+section.hooka{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 section.hooka img.background{
     position: relative;
@@ -40,28 +42,32 @@ section.hooka img.background{
     object-position: 25%;
 }
 section.hooka div{
-    margin-top: 20px;
-    margin-left: 15px;
-    align-items: center;
-    width: 350px;
-    height: 270px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
-    position: absolute;
-    flex-direction: column;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    position: absolute;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 section.hooka div img.logo{
-    height: 130px;
+    height: 120px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-section.hooka div p{
+section.hooka div p.arbtitle{
     color: var(--text-color);
     font-family: var(--main-text-family);
     font-size: 24px;
+}
+.engtitle{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--text-color);
 }
 /*********************** infotype ***********************/
 section.infotype{
@@ -85,16 +91,17 @@ section.infotype div.type p{
 /********************** all Menu ***********************/
 p.all{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     font-family: var(--main-text-family);
     font-size: 20px;
-    margin-right: 50px;
 }
 section.allmenu{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
     gap: 10px;
 }
 section.allmenu div.first{
