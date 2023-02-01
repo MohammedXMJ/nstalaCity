@@ -218,7 +218,7 @@ div.f4:active{
 }
 div.f5{
     background: url("../everything/other/drinks/oringe.JPG") no-repeat;
-    background-size: cover;
+    background-size: content;
     background-position: right;
     display: flex;
     justify-content: center;
