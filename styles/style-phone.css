@@ -802,7 +802,7 @@ section.coldDrinks{
     width: auto;
 }
 .cold1{
-    background: url('../everything/other/drinks/lemon.JPG') no-repeat;
+    background: url('../everything/other/drinks/lemon.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     width: 150px;
@@ -820,7 +820,7 @@ section.coldDrinks{
     margin-right: 20px;
 }
 .cold3{
-    background: url('../everything/other/drinks/oringe.JPG') no-repeat;
+    background: url('../everything/other/drinks/oringe.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     width: 150px;
@@ -892,7 +892,7 @@ section.coldDrinks{
     margin-right: 20px;
 }
 .cold11{
-    background: url('../everything/other/drinks/Lemonmexican.JPG') no-repeat;
+    background: url('../everything/other/drinks/Lemonmexican.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     width: 150px;
