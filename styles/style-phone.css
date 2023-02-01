@@ -673,7 +673,7 @@ section.kunafatateli{
 }
 .kunafaimg1{
     background: url("../everything/allfood/knafa/knafa.jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     width: 150px;
     height: 120px;
